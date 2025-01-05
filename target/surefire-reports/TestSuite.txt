@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.69 s <<< FAILURE! -- in TestSuite
-testCases.TC002_LoginTest.verify_login -- Time elapsed: 16.54 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.25 s <<< FAILURE! -- in TestSuite
+testCases.TC002_LoginTest.verify_login -- Time elapsed: 16.46 s <<< FAILURE!
 java.lang.AssertionError: login failed expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
