@@ -1,0 +1,12 @@
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/pageObjects/AccountRegistrationPage.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/pageObjects/BasePage.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/pageObjects/HomePage.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/pageObjects/LoginPage.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/pageObjects/MyAccountPage.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/testBase/BaseClass.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/testCases/TC001_AccountRegistrationTest.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/testCases/TC002_LoginTest.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/testCases/TC003_LoginDDT.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/utilities/DataProviders.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/utilities/ExcelUtils.java
+/home/abhi/MyWorkspace/OpencartV2.0/src/test/java/utilities/ExtentReportManager.java
