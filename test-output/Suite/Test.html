@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 31 14:03:44 IST 2024</td>
+<td>Started on:</td><td>Fri Jan 10 13:18:33 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>42 seconds (42731 ms)</td>
+<tr><td>Total time:</td><td>118 seconds (118294 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
-<td><div><pre>java.lang.AssertionError: login failed expected [true] but found [false]
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:34)
+<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: qzx91.com, yuuy123, valid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1408043496", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1408043496'><pre>java.lang.AssertionError: login failed expected [true] but found [false]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778234583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778234583'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:819)
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:34)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -114,8 +113,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>17</td>
-<td>testCases.TC002_LoginTest@123ef382</td></tr>
+<td>11</td>
+<td>testCases.TC003_LoginDDT@6c80d78a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -125,10 +124,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC006_ShoppingCartTest.Checkout()'><b>Checkout</b><br>Test class: testCases.TC006_ShoppingCartTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_ShoppingCartTest@7fa98a66</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: qzx92.com, 1234, invalid</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC003_LoginDDT@6c80d78a</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC002_LoginTest@52e6fdee</td></tr>
+<tr>
 <td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
 <td></td>
-<td>9</td>
-<td>testCases.TC001_AccountRegistrationTest@333291e3</td></tr>
+<td>7</td>
+<td>testCases.TC001_AccountRegistrationTest@dbf57b3</td></tr>
+<tr>
+<td title='testCases.TC004_SearchProductTest.verify_productsearch()'><b>verify_productsearch</b><br>Test class: testCases.TC004_SearchProductTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC004_SearchProductTest@62150f9e</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: qzx91@gmail.com, test@123, valid</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC003_LoginDDT@6c80d78a</td></tr>
+<tr>
+<td title='testCases.TC005_AddtocartTest.TestCart()'><b>TestCart</b><br>Test class: testCases.TC005_AddtocartTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_AddtocartTest@1a451d4d</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: wert@gmail.com, 2133, invalid</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC003_LoginDDT@6c80d78a</td></tr>
 </table><p>
 </body>
 </html>
