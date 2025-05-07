@@ -18,6 +18,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -84,7 +85,7 @@ public class BaseClass {
 				return;
 			}
 
-				// Initialize RemoteWebDriver
+			// Initialize RemoteWebDriver
 
 			}
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
@@ -92,7 +93,11 @@ public class BaseClass {
 		} else {
 			switch (br.toLowerCase()) {
 			case "chrome":
-				driver = new ChromeDriver();
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=new");
+				options.addArguments("--no-sandbox");
+				options.addArguments("--disable-dev-shm-usage");
+				driver = new ChromeDriver(options);
 				break;
 			case "firefox":
 //			FirefoxOptions options = new FirefoxOptions();
