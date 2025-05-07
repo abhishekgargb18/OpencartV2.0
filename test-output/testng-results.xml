@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-10T13:18:33 IST" name="Suite" finished-at="2025-01-10T13:20:32 IST" duration-ms="118294">
+  <suite started-at="2025-05-07T18:40:38 IST" name="Suite" finished-at="2025-05-07T18:43:30 IST" duration-ms="172149">
     <groups>
       <group name="datadriven">
         <method signature="TC003_LoginDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" name="verify_loginDDT" class="testCases.TC003_LoginDDT"/>
@@ -18,9 +18,9 @@
         <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" name="verify_login" class="testCases.TC002_LoginTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-01-10T13:18:33 IST" name="Test" finished-at="2025-01-10T13:20:32 IST" duration-ms="118294">
+    <test started-at="2025-05-07T18:40:38 IST" name="Test" finished-at="2025-05-07T18:43:30 IST" duration-ms="172149">
       <class name="testCases.TC004_SearchProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-01-10T13:20:06 IST" name="setup" finished-at="2025-01-10T13:20:12 IST" duration-ms="5388" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-05-07T18:42:48 IST" name="setup" finished-at="2025-05-07T18:42:58 IST" duration-ms="9515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,17 +36,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_productsearch()[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-01-10T13:20:12 IST" name="verify_productsearch" finished-at="2025-01-10T13:20:13 IST" duration-ms="1650" status="PASS">
+        <test-method signature="verify_productsearch()[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-05-07T18:42:58 IST" name="verify_productsearch" finished-at="2025-05-07T18:43:00 IST" duration-ms="2669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_productsearch -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-01-10T13:20:13 IST" name="teardown" finished-at="2025-01-10T13:20:14 IST" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_SearchProductTest@62150f9e]" started-at="2025-05-07T18:43:00 IST" name="teardown" finished-at="2025-05-07T18:43:01 IST" duration-ms="736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC004_SearchProductTest -->
       <class name="testCases.TC005_AddtocartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-01-10T13:20:14 IST" name="setup" finished-at="2025-01-10T13:20:19 IST" duration-ms="5680" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-05-07T18:43:01 IST" name="setup" finished-at="2025-05-07T18:43:12 IST" duration-ms="11413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCart()[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-01-10T13:20:19 IST" name="TestCart" finished-at="2025-01-10T13:20:23 IST" duration-ms="3597" status="PASS">
+        <test-method signature="TestCart()[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-05-07T18:43:12 IST" name="TestCart" finished-at="2025-05-07T18:43:17 IST" duration-ms="4191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-01-10T13:20:23 IST" name="teardown" finished-at="2025-01-10T13:20:23 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_AddtocartTest@1a451d4d]" started-at="2025-05-07T18:43:17 IST" name="teardown" finished-at="2025-05-07T18:43:17 IST" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC005_AddtocartTest -->
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-01-10T13:18:48 IST" name="setup" finished-at="2025-01-10T13:18:54 IST" duration-ms="6328" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-05-07T18:41:04 IST" name="setup" finished-at="2025-05-07T18:41:16 IST" duration-ms="11534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,17 +88,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-01-10T13:18:54 IST" name="verify_login" finished-at="2025-01-10T13:19:06 IST" duration-ms="12261" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-05-07T18:41:16 IST" name="verify_login" finished-at="2025-05-07T18:41:31 IST" duration-ms="15077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-01-10T13:19:06 IST" name="teardown" finished-at="2025-01-10T13:19:07 IST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@52e6fdee]" started-at="2025-05-07T18:41:31 IST" name="teardown" finished-at="2025-05-07T18:41:31 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:19:07 IST" name="setup" finished-at="2025-01-10T13:19:12 IST" duration-ms="5579" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:41:31 IST" name="setup" finished-at="2025-05-07T18:41:43 IST" duration-ms="12122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:19:30 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-10T13:19:41 IST" duration-ms="11339" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:42:05 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-05-07T18:42:18 IST" duration-ms="13086" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:19:41 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-10T13:19:53 IST" duration-ms="11438" status="FAIL">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:42:18 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-05-07T18:42:31 IST" duration-ms="12853" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -196,7 +196,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:19:53 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-10T13:19:55 IST" duration-ms="1876" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:42:31 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-05-07T18:42:35 IST" duration-ms="4319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:19:55 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-10T13:20:06 IST" duration-ms="11250" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:42:35 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-05-07T18:42:48 IST" duration-ms="12625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,13 +238,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-01-10T13:20:06 IST" name="teardown" finished-at="2025-01-10T13:20:06 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@6c80d78a]" started-at="2025-05-07T18:42:48 IST" name="teardown" finished-at="2025-05-07T18:42:48 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC006_ShoppingCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-01-10T13:20:23 IST" name="setup" finished-at="2025-01-10T13:20:29 IST" duration-ms="5612" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-05-07T18:43:17 IST" name="setup" finished-at="2025-05-07T18:43:27 IST" duration-ms="9363" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -260,17 +260,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Checkout()[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-01-10T13:20:29 IST" name="Checkout" finished-at="2025-01-10T13:20:31 IST" duration-ms="2447" status="PASS">
+        <test-method signature="Checkout()[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-05-07T18:43:27 IST" name="Checkout" finished-at="2025-05-07T18:43:30 IST" duration-ms="3131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-01-10T13:20:31 IST" name="teardown" finished-at="2025-01-10T13:20:32 IST" duration-ms="525" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_ShoppingCartTest@7fa98a66]" started-at="2025-05-07T18:43:30 IST" name="teardown" finished-at="2025-05-07T18:43:30 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC006_ShoppingCartTest -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-01-10T13:18:34 IST" name="setup" finished-at="2025-01-10T13:18:40 IST" duration-ms="6396" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-05-07T18:40:39 IST" name="setup" finished-at="2025-05-07T18:40:52 IST" duration-ms="13497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,11 +286,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-01-10T13:18:40 IST" name="verify_account_registration" finished-at="2025-01-10T13:18:47 IST" duration-ms="7196" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-05-07T18:40:52 IST" name="verify_account_registration" finished-at="2025-05-07T18:41:03 IST" duration-ms="11189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-01-10T13:18:47 IST" name="teardown" finished-at="2025-01-10T13:18:48 IST" duration-ms="416" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@dbf57b3]" started-at="2025-05-07T18:41:04 IST" name="teardown" finished-at="2025-05-07T18:41:04 IST" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
