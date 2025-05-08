@@ -61,8 +61,9 @@ public class TC003_LoginDDT extends BaseClass {
 			}
 
 		} catch (Exception e) {
-			Assert.fail();
-		}
+            logger.error("Exception occurred: " + e.getMessage());
+            Assert.fail("Test failed due to an exception: " + e.getMessage());
+        }
 
 		logger.info("*********finishing TC003_LoginDDT********************");
 

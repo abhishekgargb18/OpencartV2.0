@@ -93,10 +93,12 @@ public class BaseClass {
 		} else {
 			switch (br.toLowerCase()) {
 			case "chrome":
+//				this block is for jenkins only as jenkins works with headless mode only
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless=new");
 				options.addArguments("--no-sandbox");
 				options.addArguments("--disable-dev-shm-usage");
+//				------------------------------------------------
 				driver = new ChromeDriver(options);
 				break;
 			case "firefox":

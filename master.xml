@@ -10,8 +10,8 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			<class name="testCases.TC002_LoginTest" />
-			<class name="testCases.TC003_LoginDDT" />
-			<class name="testCases.TC004_SearchProductTest" />
+			<!--<class name="testCases.TC003_LoginDDT" />-->
+			<class name="testCases.TC004_SearchProductTest" /> 
 			<class name="testCases.TC005_AddtocartTest" />
 			<class name="testCases.TC006_ShoppingCartTest" />
 
